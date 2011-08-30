@@ -30,3 +30,9 @@
     background-color: green;
     position: absolute; 
 }
+#orange {
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+    position: absolute;
+}
