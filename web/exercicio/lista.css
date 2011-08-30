@@ -1,0 +1,15 @@
+#texto {
+   font-style: italic;
+   height: 550px;
+   width: 800px;
+   margin:auto;
+        }
+     
+ .pos{
+   top: 0;         
+      }
+      
+ .style{
+   font-style: oblique;
+   font-weight: bold;
+         }
