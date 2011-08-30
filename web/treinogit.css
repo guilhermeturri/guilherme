@@ -1,34 +1,20 @@
-.esqcima{
-    position: absolute; 
-    width: 100px; 
-    height: 100px; 
-    background-color: red;
-    top: 0pt;
-    left: 0pt
-}
-.esqbaixo{
-    float: left;
-    width: 100px;
-    height: 100px;
-    background-color: green; 
-    position: absolute; 
-    bottom: 0pt;
-    left: 0pt;
-}
-.dircima{
-    float: right; 
-    background-color: yellow; 
-    width: 100px;
-    height: 100px; 
-    right: 0pt;
-    top: 0pt;
-    position: absolute;
-}
-#green{
+.blue a,
+.blue a:visited{
+    color: blue;
+    }
+.orange a,
+.orange a:visited{
+    color: orange;
+    }
+.green a,
+.green a:visited{
+    color: green;
+    }
+#blue {
     width: 200px;
     height: 100px;
-    background-color: green;
-    position: absolute;
+    background-color: blue;
+    position: absolute; 
 }
 .blue a, 
 .blue a:visited{
@@ -38,3 +24,9 @@
 .orange a:visited{
     color: orange;
     }
+#green {
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    position: absolute; 
+}
