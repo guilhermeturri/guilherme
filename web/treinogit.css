@@ -21,18 +21,28 @@
     width: 100px;
     height: 100px; 
     right: 0pt;
-    top: 0pt;
-    position: absolute;
 }
-.green{
-    width: 200px;
-    height: 100px;
-    background-color: green;
-    position: absolute;
-}
-.blue {
+.blue a,
+.blue a:visited{
+    color: blue;
+    }
+.orange a,
+.orange a:visited{
+    color: orange;
+    }
+.green a,
+.green a:visited{
+    color: green;
+    }
+#blue {
     width: 200px;
     height: 100px;
     background-color: blue;
-    position: absolute;
+    position: absolute; 
+}
+#green {
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    position: absolute; 
 }
