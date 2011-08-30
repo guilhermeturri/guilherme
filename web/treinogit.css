@@ -30,14 +30,6 @@
     background-color: green;
     position: absolute;
 }
-<<<<<<< HEAD
-.blue {
-    width: 200px;
-    height: 100px;
-    background-color: blue;
-    position: absolute;
-}
-=======
 .blue a, 
 .blue a:visited{
     color: blue;
@@ -46,4 +38,3 @@
 .orange a:visited{
     color: orange;
     }
->>>>>>> primeira
