@@ -24,9 +24,17 @@
     top: 0pt;
     position: absolute;
 }
-.green{
+#green{
     width: 200px;
     height: 100px;
     background-color: green;
     position: absolute;
 }
+.blue a, 
+.blue a:visited{
+    color: blue;
+    }
+.orange a, 
+.orange a:visited{
+    color: orange;
+    }
