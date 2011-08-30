@@ -30,3 +30,9 @@
     background-color: green;
     position: absolute;
 }
+.blue {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+}
