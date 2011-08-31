@@ -16,5 +16,8 @@
    right:0;
    float:right;
    bottom:0;
-   
          }
+  td, th{
+       border: 2px solid black;
+         }
+  
