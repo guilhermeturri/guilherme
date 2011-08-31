@@ -1,6 +1,5 @@
 #texto {
    font-style: italic;
-   height: 550px;
    width: 800px;
    margin:auto;
         }
@@ -12,4 +11,10 @@
  .style{
    font-style: oblique;
    font-weight: bold;
+         }
+  #pos{
+   right:0;
+   float:right;
+   bottom:0;
+   
          }
