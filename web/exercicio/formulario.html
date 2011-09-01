@@ -11,16 +11,79 @@ and open the template in the editor.
     </head>
     <body>
         <div>
-         <form>
-             Nome: &nbsp;
-             <input type="text" name="nome">
+         <form id="frmstyle">
+             <span>
+                Preencha o formulário abaixo:
+             </span>
+             <div class="divpos">
+                Nome: &nbsp;
+                <input type="text" name="nome" /> 
+                 <br />
+                Password: &nbsp;
+                <input type="password" name="senha" />
+                 <br />
+                E-mail: &nbsp;
+                <input type="Email" name="email" />
+                 <br />
+             </div>
+             <span class="divpos classpos">
+                 <span>
+                         Selecione uma moeda:
+                 </span>
+                 <br />
+                 <input type="radio" value="real" name="moeda>">
+                    Moeda
+                     <br />
+                 <input type="radio" value="euro" name="moeda>">
+                    Euro
+                     <br />
+                 <input type="radio" value="dolar" name="moeda>">
+                    Dólar
+                     <br />
+                 <input type="radio" value="yen" name="moeda>">
+                    Yen
+             </span>
+             <span class="divposlateral">
+                 <span>
+                        Marque as opções desejadas:
+                 </span>
+                     <br />
+                     <input type="checkbox" value="op1" name="op">
+                        Opção 1
+                         <br />
+                     <input type="checkbox" value="op2" name="op">
+                        Opção 2
+                         <br />
+                     <input type="checkbox" value="op3" name="op">
+                        Opção 3
+                         <br />
+                     <input type="checkbox" value="op4" name="op">
+                        Opção 4
+             </span>
+             <div style="clear: both; display: block; height: 1px;">&nbsp;</div>
              <br />
-             Password: &nbsp;
-             <input type="password" name="senha">
+             <div class="arq">
+                 Selecione o arquivo: 
+                 <input type="file">
+             </div>    
              <br />
-             E-mail: &nbsp;
-             <input type="Email" name="email">
-         </form>   
+             <div class="divpos">
+                 <span>
+                    Selecione as opções na lista abaixo:
+                 </span>
+                 <br />
+                 <select name="opcoes" size="5" class="postext">
+                     <option>Opção 1</option>
+                     <option>Opção 2</option>
+                     <option>Opção 3</option>
+                     <option>Opção 4</option>
+                     <option>Opção 5</option>
+                     <option>Opção 6</option>
+                     <option>Opção 7</option>
+                     <option>Opção 8</option>
+                 </select>
+             </div>
+       </form>   
         </div>
     </body>
 </html>
