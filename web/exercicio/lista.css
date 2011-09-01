@@ -20,4 +20,27 @@
   td, th{
        border: 2px solid black;
          }
-  
+  .divpos{
+       margin: 20px;
+       width: 350px;
+                       }
+  #frmstyle{
+       margin: 30px;
+       
+  }
+  .divpolateral{
+      position:relative;
+      width: 250px;
+            
+  }
+  .classpos{
+      float:left;
+      margin-top:0px;
+              }
+  .arq{
+      width:600px;
+      margin-left:20px;
+    }
+    .postext{
+        margin:20px;
+            }  
