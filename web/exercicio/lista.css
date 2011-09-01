@@ -49,13 +49,19 @@
          display:block;
          float: left;
      }
-      .labelstyle2{
-         width:101px;
-         display:block;
-         float: left;
-            } 
-       .labelstyle3{
-         width:101px;
-         display:block;
-         float: left;
-            }       
+  .labelstyle2{
+     width:101px;
+     display:block;
+     float: left;
+        } 
+  .labelstyle3{
+     width:101px;
+     display:block;
+     float: left;
+        }       
+  .texto{
+     font-style: italic;
+        }
+  .boxtextstyle{
+         
+        } 
